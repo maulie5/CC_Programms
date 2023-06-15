@@ -1,0 +1,27 @@
+fission reactor control program arguments:
+
+1. set number of fission reactor in the network(required)
+	input int number of the reactor
+
+2. set Logging Interval (not required)(standart: 4s)(0 means no logging)
+	input int seconds (table format)
+
+3. set Max. Temperatur (not required)(standart: 400C°)
+	input int temperature(C°)
+
+4. set Max. Damage (not required)(standart: 0%)
+	input int damagePercentage
+
+5. set max. WasteFilledPercentage(not required)(standart: 50% ) 
+	input int WasteFilledPercentage
+
+6. set burnrate mode (0 auto to static cap, 1 auto cap to max)(standart: 0)
+	input int 
+
+7. set min.CoolantFilledPercentage(not required)(standart: 70%)
+	input int
+
+8. set max. heatedFilledPercentage(not required)(standart: 50%)
+	input int 
+
+9. set min. FuelFilledPercentage(40%)
